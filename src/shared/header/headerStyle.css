@@ -1,0 +1,28 @@
+*{
+    border: solid red;
+}
+.header_container{
+    border: 2px solid green;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10rem;
+}
+.header_cta_section{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_cta_section ul li  {
+    list-style: none;
+    font-style: normal;
+    font-size: 12px;
+}
+.header_cta_section ul li a {
+    color: #1F4B43;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+}

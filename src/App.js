@@ -1,9 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from '../src/shared/header';
+import Footer from '../src/shared/footer'
+
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,6 +23,7 @@ function App() {
           
         </a>
       </header>
+      <Footer />
     </div>
   );
 }
