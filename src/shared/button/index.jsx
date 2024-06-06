@@ -7,4 +7,4 @@ const Button = ({btnName, outline}) => {
   )
 }
 
-export default Button
+export default Button;

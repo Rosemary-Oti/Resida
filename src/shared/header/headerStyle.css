@@ -1,8 +1,5 @@
-*{
-    border: solid red;
-}
+
 .header_container{
-    border: 2px solid green;
     height: 69px;
     display: flex;
     align-items: center;
@@ -12,17 +9,67 @@
 .header_cta_section{
     display: flex;
     gap: 24px;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    
 }
 .header_cta_section ul li  {
     list-style: none;
     font-style: normal;
     font-size: 12px;
+    text-decoration: none;
 }
 .header_cta_section ul li a {
     color: #1F4B43;
     text-decoration: none;
-    font-weight: normal;
-    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    /* font-weight: normal; */
+    font-size: 14px;
+    /* font-family: 'Courier New', Courier, manrope; */
+}
+.mobile-logo{
+    display: none;
+}
+.menu{
+    display: none;
+}
+
+@media (max-width:841px) {
+.header_container{
+    width: 100vh;
+    justify-content: space-between;
+    padding: 0;
+}
+.header_cta_section{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header_cta_section ul li  {
+    list-style: none;
+    font-style: normal;
+    font-size: 12px;
+    text-decoration: none;
+}
+.header_cta_section ul li a {
+    color: #1F4B43;
+    text-decoration: none;
+    text-transform: capitalize;
+    /* font-weight: normal; */
+    font-size: 14px;
+    /* font-family: 'Courier New', Courier, manrope; */
+}
+.mobile-logo {
+    display: block;
+}
+.destop-logo{
+    display: none;
+}
+.menu{
+    display: block;
+    padding-left: 10px;
+    color: #1F4B43;
+}
 }
