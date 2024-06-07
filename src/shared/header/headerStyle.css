@@ -1,6 +1,6 @@
 
 .header_container{
-    height: 69px;
+    height: 8vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,6 +45,7 @@
     gap: 24px;
     align-items: center;
     justify-content: space-between;
+    margin: 10px;
     
 }
 .header_cta_section ul li  {
