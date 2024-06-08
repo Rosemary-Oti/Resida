@@ -14,6 +14,9 @@
     border-top-right-radius: 12px;
     background-color: transparent;
     border-bottom-right-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .outline:hover, .btn:hover{
     opacity: 0.7;
@@ -34,6 +37,12 @@
     border-top-right-radius: 12px;
     border: 1px solid transparent;
     border-bottom-right-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right_icon, .left_icon{
+    margin-top: 4px;
 }
 
 @media (max-width:841px){
