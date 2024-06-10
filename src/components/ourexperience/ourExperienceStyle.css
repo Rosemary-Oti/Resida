@@ -13,10 +13,20 @@
     background-color: #fff;
 }
 .boxes_container{
+    position: relative;
     justify-content: space-between;
     
 }
-
+.svg_1{
+    position: absolute;
+    left: 23%;
+    top: 1.5rem;
+}
+.svg_2{
+    position: absolute;
+    right: 34%;
+    bottom: 2.5rem;
+}
 /* boxes */
 .box1, .box2, .box3{
     border-radius: 10px;
@@ -69,6 +79,7 @@
         overflow-x: scroll;
         width: 100%;
         height: max-content;
+        padding: 1rem 0;
 
     }
 
@@ -101,5 +112,14 @@
         object-fit: cover;
     
     }
-
+    .svg_1{
+        position: absolute;
+        left: 45%;
+        top: 0;
+    }
+    .svg_2{
+        position: absolute;
+        right: 0;
+        bottom: 0.3rem;
+    }
 }
