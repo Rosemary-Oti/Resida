@@ -5,6 +5,7 @@ import Hero from 'components/heroSection'
 import SubHeroSection from 'components/subHeroSection'
 import InfoCard from 'components/infocard'
 import OurExperience from 'components/ourexperience'
+import FindYourSpace from 'components/findyourspace'
 const LandingPage = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const LandingPage = () => {
       <SubHeroSection />
       <InfoCard />
       <OurExperience />
+      <FindYourSpace />
     </div>
   )
 }
