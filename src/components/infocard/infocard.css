@@ -77,7 +77,8 @@
     }
     .info_description{
         width: full;
-        height: 70vh;
+        height: max-content;
+        margin-bottom: 3rem;
     }
     .info{
         display: flex;
