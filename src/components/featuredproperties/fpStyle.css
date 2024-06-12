@@ -1,0 +1,138 @@
+
+.fp_container {
+ height: 800px;
+    
+}
+.fp_title, .fp_subtitle{
+    margin: 2rem 12rem 0 12rem;
+
+}
+
+.fp_title{
+color: #1F4B43;
+}
+
+.fp_subtitle{
+color: #141115;
+}
+
+.fp_box_container{
+    margin-top: 70px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.box_1 img,
+.box_2 img,
+.box_3 img {
+    width: 332px;
+    height: 252;
+
+}
+
+.fp_box_container .box_1,
+.fp_box_container .box_2,
+.fp_box_container .box_3 {
+   padding-bottom: 6rem;
+
+}
+.inner_box_container1, 
+.inner_box_container2, 
+.inner_box_container3{
+    margin: 0;
+    height: 120px;
+}
+.inner_box_container1 p,
+.inner_box_container2 p,
+.inner_box_container3 p{
+display: flex;
+align-self: start;
+font-size: 13px;
+}
+.fp_span1, .fp_span2, .fp_span3{
+    display: flex;
+    gap: 3px;
+    font-size: 9px;
+}
+.fp_p1, .fp_p2, .fp_p3{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.fp_svg1{
+    position: absolute;
+    left: 36.5%;
+    bottom: 12rem;
+    color: #0000;
+}
+.fp_svg2{
+    position: absolute;
+    left: 58.5%;
+    bottom: 12rem;
+    color: #0000;
+}
+.fp_svg3{
+    position: absolute;
+    left: 81%;
+    bottom: 12rem;
+    color: #0000;
+}
+
+@media (max-width: 841px){
+
+    .fp_container {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+           
+       }
+    .fp_title, .fp_subtitle{
+        margin: 2rem 20rem 0 20rem;
+        /* display: grid;
+        align-items: center;
+        justify-content: center; */
+    }
+
+/* .box_1 img,
+.box_2 img,
+.box_3 img {
+    display: grid;
+} */
+ .fp_innercontainer{
+    display: flex-start;
+        align-items: center;
+        justify-content: center;
+ }
+
+.fp_box_container{
+    overflow-x: scroll;
+        width: 100%;
+        height: max-content;
+        padding: 1rem 0;
+        
+}
+.fp_svg1{
+    position: absolute;
+    left: 20%;
+    bottom: 13rem;
+    color: #0000;
+}
+.fp_svg2{
+    position: absolute;
+    left: 65%;
+    bottom: 13rem;
+    color: #0000;
+}
+.fp_svg3{
+    position: absolute;
+    left: 93%;
+    bottom: 13rem;
+    color: #0000;
+}
+}

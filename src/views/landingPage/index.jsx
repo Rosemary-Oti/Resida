@@ -8,6 +8,8 @@ import OurExperience from 'components/ourexperience'
 import FindYourSpace from 'components/findyourspace'
 import info_image from 'assets/resida-info.svg'
 import guidemap from 'assets/guidemap.svg'
+import FeaturedProperties from 'components/featuredproperties'
+import house from 'assets/house.svg'
 
 const LandingPage = () => {
   return (
@@ -36,6 +38,23 @@ const LandingPage = () => {
       imageHeight={"info_comprehensive_imageheight"}
       button={true}
       infoStyle={"info_guide"}
+      />
+      <FeaturedProperties />
+      {/* DO YOU HAVE A PROPERTY */}
+      <InfoCard 
+      title="Do you have a property?"
+      subtitle="Provide accommodation here in Lagos"
+      body="Own a property in Lagos? Join our platform to effortlessly list your accommodations and connect with eager tenants seeking their perfect home in the vibrant city of Lagos."
+      image={house}
+      imageStyle={"info_comprehensive"}
+      imageHeight={"info_comprehensive_houseeheight"}
+      button={true}
+      infoStyle={"info_guide"}
+      circle ={true}
+      circleStyletitle
+      circleStyleSubtitle={"info_circle_subtitle"}
+      reverse
+
       />
     </div>
   )
