@@ -1,0 +1,48 @@
+.discover_container {
+     height: 500px;
+    background-image: url("/src/assets/disover.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+
+
+.discover_text{
+    color: #fff;
+    font-size: 33px;
+    margin-top: 5rem;
+    font-weight: bolder;
+    padding: 0 30rem;
+    
+   
+}
+.discover_text_section {
+    /* border: solid blue; */
+    height: 361px;
+    /* margin-top: 4rem; */
+}
+
+@media (max-width: 841px){
+.discover_text{
+    color: #fff;
+    font-size: 10px;
+    margin-top: 6rem;
+    font-weight: bold;
+    padding: 0 10rem;
+    flex-direction: column;
+    
+   
+}
+.discover_text_section {
+    /* border: solid blue; */
+    height: 300px;
+    /* margin-top: 4rem; */
+}
+
+/* .discover_button{
+    dis
+    align-items: center;
+    justify-content: center;
+} */
+}

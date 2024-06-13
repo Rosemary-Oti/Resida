@@ -10,6 +10,8 @@ import info_image from 'assets/resida-info.svg'
 import guidemap from 'assets/guidemap.svg'
 import FeaturedProperties from 'components/featuredproperties'
 import house from 'assets/house.svg'
+import DiscoverAplace from 'components/discoverAplace'
+
 
 const LandingPage = () => {
   return (
@@ -56,6 +58,11 @@ const LandingPage = () => {
       reverse
 
       />
+      <DiscoverAplace />
+      {/* FIND HOME SECTION */}
+
+      {/* NEED AN OFFICE SPACE */}
+      
     </div>
   )
 }
