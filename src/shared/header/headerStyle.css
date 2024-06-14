@@ -45,7 +45,7 @@
     gap: 24px;
     align-items: center;
     justify-content: space-between;
-    margin: 10px;
+    margin-right: 31rem;
     
 }
 .header_cta_section ul li  {
@@ -58,19 +58,20 @@
     color: #1F4B43;
     text-decoration: none;
     text-transform: capitalize;
-    /* font-weight: normal; */
     font-size: 14px;
-    /* font-family: 'Courier New', Courier, manrope; */
+    display: none;
+    
 }
 .mobile-logo {
     display: block;
+    
 }
 .destop-logo{
     display: none;
 }
 .menu{
     display: block;
-    padding-left: 10px;
+    margin-left: 2rem;
     color: #1F4B43;
 }
 }

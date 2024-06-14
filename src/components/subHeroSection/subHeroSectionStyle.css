@@ -20,6 +20,9 @@
         gap: 12px;
     
     }
+    .sub_hero_text{
+        width: 300px;
+    }
     .sub_hero_text h1{
         font-size: 20px;
         text-align: center;

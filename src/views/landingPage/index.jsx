@@ -11,7 +11,10 @@ import guidemap from 'assets/guidemap.svg'
 import FeaturedProperties from 'components/featuredproperties'
 import house from 'assets/house.svg'
 import DiscoverAplace from 'components/discoverAplace'
-
+import OfficeSpace from 'components/officeSpace'
+import DownloadOurApp from 'components/ourApp'
+import FindHome from 'components/findHome'
+import Footer from 'shared/footer'
 
 const LandingPage = () => {
   return (
@@ -60,9 +63,11 @@ const LandingPage = () => {
       />
       <DiscoverAplace />
       {/* FIND HOME SECTION */}
-
+      <FindHome />
       {/* NEED AN OFFICE SPACE */}
-      
+      <OfficeSpace />
+      <DownloadOurApp />
+      <Footer />
     </div>
   )
 }
