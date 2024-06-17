@@ -16,6 +16,7 @@ import DownloadOurApp from 'components/ourApp'
 import FindHome from 'components/findHome'
 import Footer from 'shared/footer'
 
+
 const LandingPage = () => {
   return (
     <div>
@@ -62,11 +63,17 @@ const LandingPage = () => {
 
       />
       <DiscoverAplace />
+
       {/* FIND HOME SECTION */}
       <FindHome />
+
       {/* NEED AN OFFICE SPACE */}
       <OfficeSpace />
+
+      {/* our app */}
       <DownloadOurApp />
+      
+     {/* footer */}
       <Footer />
     </div>
   )

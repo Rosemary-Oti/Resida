@@ -39,8 +39,8 @@
    
 }
 .fys_button{
-    width: 33%;
-    margin-top: 2rem;
+    width: 184px;
+    margin-top: 1rem;
 }
 
 @media (max-width: 841px) {
@@ -62,7 +62,7 @@
     justify-content: center;
 }
 .fys_button{
-    width: 100%;
+    width: 90%;
     margin-top: 2rem;
 }
 .fys_text_section div p{

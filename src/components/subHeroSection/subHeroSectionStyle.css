@@ -31,4 +31,8 @@
         font-size: 15px;
         text-align: center;
     }
+    /* .sub_hero_cta, .sub_hero_text {
+        display: flex;
+        flex-direction: column;
+    } */
 }
