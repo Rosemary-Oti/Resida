@@ -1,6 +1,3 @@
-
-
-
 import React from 'react'
 import './contactStyle.css'
 import { LuPhoneCall } from "react-icons/lu";
@@ -8,10 +5,15 @@ import { MdOutlineEmail } from "react-icons/md";
 import { GoLocation } from "react-icons/go";
 import { GoArrowRight } from "react-icons/go";
 import Button from 'shared/button'
+import Header from 'shared/header';
+import Footer from 'shared/footer';
 
 
 const ContactPage = () => {
   return (
+    <div>
+      <Header />
+    
     <section className='contact_container'>
       <div className='text_area'>
         <h2>{"Contact Us"}</h2>
@@ -134,6 +136,8 @@ const ContactPage = () => {
       </div>
       </div>
     </section>
+    <Footer />
+    </div>
   )
 }
 
